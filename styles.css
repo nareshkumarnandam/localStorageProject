@@ -38,3 +38,15 @@ main{
     padding: 30px;
     border: 2px solid rgb(175, 175, 175);
 }
+
+@media screen and (max-width: 900px) {
+    main{
+        padding: 2px;
+    }
+    .container{
+        width: 100%;
+    }
+    #textArea{
+        width: 100%;
+    }
+}
